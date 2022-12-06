@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-white{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    font-weight: 800;
+}
+.bg-cover {
+    background-image: url('../rename.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    max-height: 800px;
+}
+
+.bg-cover h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0.105em;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+#cover{
+    max-height: max-content;
+}
+
+.item-category{
+    height: 100px;
+    background-color: #DDE3E6;
+    border-radius: 10px;
+}
+
+.category img{
+    width: 50px;
+}
+
+.item-restaurant .card{
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+.detail-restaurant{
+    text-align: justify;
+}
+
+.footer{
+    background-color: #DDE3E6;
+    height: 250px;
+}
+
+.footer img{
+    width: 10vh;
+}
